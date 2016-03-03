@@ -1,0 +1,218 @@
+/*This is where the nav partials are styled*/
+body{
+	margin: 0px;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a{
+	color: white;
+	font-size: x-large;
+	text-align: center;
+}
+
+li{
+	display: inline;
+}
+
+ul{
+	font-size: small;
+	font-family: lucida grande, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	display: inline;
+	text-decoration: none;
+}
+
+.nunav{
+	text-align: right;
+}
+
+/*This is where the home page is styled*/
+#homebod{
+	background-image: url('/assets/restaurant-bar.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#navbar{
+	margin: 0 auto;
+	margin-left: 0px;
+	height: 40px;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	position: fixed;
+}
+
+#sec1, #sec2, #sec4, #sec5, #sec6, #sec7, #sec8, #sec9, #sec10{
+	border: solid red 2px;
+	height: 500px;
+	width: 100%;
+}
+
+#sec0{
+	border: solid red 2px;
+	height: 700px;
+	width: 100%;
+}
+
+#sec1{
+	background-color: white;
+	height: 400px;
+}
+
+.a-frame{
+	float: left;
+}
+
+.para1{
+	margin: 0 auto;
+	float: left;
+	display: inline;
+	position: relative;
+	text-align: center;
+	margin-top: 134px;
+	font-size: 150%;
+	font-family: lucida grande, sans-serif;
+}
+/*signup*/
+#sec3{
+	background-image: url('/assets/tableandtent.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	border: solid red 2px;
+	background-color: white;
+	text-align: center;
+	height: 700px;
+	width: 100%;
+}
+/*Signin*/
+#sec5{
+	background-color: white;
+	height: 350px;
+}
+/*About*/
+#sec7{
+	background-image: url('/assets/chalkboard1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: 'chalkduster';
+	font-size: large;
+	color: white;
+}
+
+.abouthead{
+	text-align: center;
+}
+
+.para2{
+	margin: 0 auto;
+	width: 600px;
+}
+
+#sec9{
+	background-image: url('/assets/settable.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 700px;
+}
+
+/*This is where all the old layout stylings are located*/
+/*This is where the about page is styled*/
+#aboutbod{
+	background-image: url('/assets/chalkboard1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*This is where the search page is styled*/
+#searchbod{
+	background-image: url('/assets/settable.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#searchnav{
+   margin-left: 400px;
+}
+
+/*This is where the contact page is styled*/
+#contactbod{
+	background-image: url('/assets/restaurant-bar.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+/*This is where the signup page is styled*/
+#signupbod{
+	height: 690px;
+	background-image: url('/assets/tableandtent.png');
+	background-size: 55%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#signupform{
+	margin: 0 auto;
+	display: block;
+	float: left;
+	position: absolute;
+	margin-top: 182px;
+    margin-left: 524px;
+    -webkit-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+}
+
+/*This is where the signin page is styled*/
+#signinform{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	/*margin-top: 150px;*/
+	font-size: x-large;
+}
+
+/*This is where the user/business show/profile page is styled*/
+#profilebod{
+	background-image: url('/assets/wineglassart.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+#uppernav{
+	display: block;
+	margin: 0 auto;
+	margin-left: 100px;
+}
+
+#lowernav{
+	display: block;
+	margin: 0 auto;
+	margin-left: 680px;
+    margin-top: 500px;
+}
+
+/*This is where the edit account page is styled*/
+#editactbod{
+	height: 690px;
+	background-image: url('/assets/tablecircle.jpg');
+	background-size: 55%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+

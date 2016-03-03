@@ -1,0 +1,17 @@
+<body>
+<%= render 'layouts/navigation' %>
+<h2><%= flash[:notice] if flash[:notice] %></h2>
+<div id="signinform">
+<h3>Please Sign In</h3>
+<img src="/assets/chopstick.png" width="600" class="chop1">
+<%= form_tag login_path do %>
+	<%= label_tag :"Your Full Name" %>
+	<%= text_field_tag :ownername %><br>
+<img src="/assets/chopstick2.png" width="600" class="chop2"><br>	
+	<%= label_tag :password %>
+	<%= password_field_tag :password %><br>
+<img src="/assets/chopstick.png" width="600" class="chop1"><br>
+	<%= submit_tag "Sign In" %>
+<% end %>
+</div>
+</body>
