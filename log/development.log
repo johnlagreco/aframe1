@@ -22522,3 +22522,832 @@ Started GET "/assets/settable.jpg" for ::1 at 2016-03-03 00:29:16 -0500
 
 
 Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-03-03 00:29:16 -0500
+
+
+Started GET "/" for ::1 at 2016-03-03 01:08:04 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 424ms (Views: 398.8ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/" for ::1 at 2016-03-03 01:08:04 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-03-03 01:08:04 -0500
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-03-03 01:08:04 -0500
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-03-03 01:08:04 -0500
+
+
+Started POST "/login" for ::1 at 2016-03-03 01:08:24 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tBBCM6nmZoxYZoRHfLUxTRZi2OQcGxx7vpPJvpeEewFyZuUzpzTRCudm93QxDOSAIDhmWjmAR2R3ofvGKU1a8w==", "ownername"=>"John L", "password"=>"[FILTERED]", "commit"=>"Sign In"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."ownername" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["ownername", "John L"]]
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 85ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/users/2" for ::1 at 2016-03-03 01:08:24 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_usernav.html.erb (1.0ms)
+  Rendered users/show.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 33ms (Views: 29.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/wineglassart.png" for ::1 at 2016-03-03 01:08:24 -0500
+
+
+Started GET "/users/2" for ::1 at 2016-03-03 01:13:06 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_usernav.html.erb (0.4ms)
+  Rendered users/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-5e485c70b45064824fdc8c5c5b3615566f73e42edc856f7d37adb6213e8ea703.css?body=1" for ::1 at 2016-03-03 01:13:06 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-03 01:13:06 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-03 01:13:06 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:13:06 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:13:06 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-03 01:13:06 -0500
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:13:06 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:13:06 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-03 01:13:06 -0500
+
+
+Started GET "/users/2" for ::1 at 2016-03-03 01:15:50 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_usernav.html.erb (0.3ms)
+  Rendered users/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-5e485c70b45064824fdc8c5c5b3615566f73e42edc856f7d37adb6213e8ea703.css?body=1" for ::1 at 2016-03-03 01:15:50 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-03 01:15:50 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-03 01:15:50 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:15:50 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-03 01:15:50 -0500
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:15:50 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:15:50 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:15:50 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-03 01:15:50 -0500
+
+
+Started GET "/users/2" for ::1 at 2016-03-03 01:16:12 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_usernav.html.erb (0.3ms)
+  Rendered users/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-5e485c70b45064824fdc8c5c5b3615566f73e42edc856f7d37adb6213e8ea703.css?body=1" for ::1 at 2016-03-03 01:16:12 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-03 01:16:12 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-03 01:16:12 -0500
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:16:12 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-03 01:16:12 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:16:12 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:16:12 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:16:12 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-03 01:16:12 -0500
+
+
+Started GET "/users/2" for ::1 at 2016-03-03 01:19:51 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_usernav.html.erb (0.3ms)
+  Rendered users/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 39ms (Views: 37.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-4ae39e0466f4435a900cdd9b139f2292f6d5c8edf23f53a9a66933fb6f26a11c.css?body=1" for ::1 at 2016-03-03 01:19:51 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-03 01:19:51 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-03 01:19:51 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-03 01:19:51 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:19:51 -0500
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:19:51 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:19:51 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:19:51 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-03 01:19:51 -0500
+
+
+Started GET "/assets/wineglassart.png" for ::1 at 2016-03-03 01:19:51 -0500
+
+
+Started GET "/users/2" for ::1 at 2016-03-03 01:20:03 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_usernav.html.erb (0.3ms)
+  Rendered users/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 38ms (Views: 36.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-03 01:20:03 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-03 01:20:03 -0500
+
+
+Started GET "/assets/application.self-6d4eacb0b7a018bdcb2dd4776d5d552139c126af8b8fffb502505538d3ebdc91.css?body=1" for ::1 at 2016-03-03 01:20:03 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-03 01:20:03 -0500
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:20:03 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:20:03 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:20:03 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:20:03 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-03 01:20:03 -0500
+
+
+Started GET "/assets/wineglassart.png" for ::1 at 2016-03-03 01:20:03 -0500
+
+
+Started GET "/users/2" for ::1 at 2016-03-03 01:21:22 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_usernav.html.erb (0.4ms)
+  Rendered users/show.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-958e2f67eef7fdfa03a3202b3827c03d71c560050c921738bc989bf3d7c681c0.css?body=1" for ::1 at 2016-03-03 01:21:22 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-03 01:21:22 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-03 01:21:22 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-03 01:21:22 -0500
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:21:22 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:21:22 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:21:22 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:21:22 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-03 01:21:22 -0500
+
+
+Started GET "/assets/wineglassart.png" for ::1 at 2016-03-03 01:21:22 -0500
+
+
+Started GET "/users/2" for ::1 at 2016-03-03 01:27:20 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_usernav.html.erb (0.4ms)
+  Rendered users/show.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-24fe4f8ec18a687133cdbe5ec9dd828679f1f101c9c9d5c74e5a3897c6e21665.css?body=1" for ::1 at 2016-03-03 01:27:20 -0500
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:27:20 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-03 01:27:20 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-03 01:27:20 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:27:20 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-03 01:27:20 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:27:20 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:27:20 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-03 01:27:20 -0500
+
+
+Started GET "/assets/wineglassart.png" for ::1 at 2016-03-03 01:27:20 -0500
+
+
+Started DELETE "/logout" for ::1 at 2016-03-03 01:27:31 -0500
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"4MHOE08nQdeWhjmpwN8GUavQdNVrmixrKNdJRzRLBtAmt2kTQfX2USmGSpqNZtOcnYrKa04Bd3Th5Xs/ioInIg=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-03 01:27:31 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-03-03 01:27:31 -0500
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-03-03 01:27:31 -0500
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-03-03 01:27:31 -0500
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-03-03 01:27:31 -0500
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-03-03 01:27:31 -0500
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-03-03 01:27:31 -0500
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-03-03 01:27:31 -0500
+
+
+Started GET "/" for ::1 at 2016-03-03 01:29:01 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-24fe4f8ec18a687133cdbe5ec9dd828679f1f101c9c9d5c74e5a3897c6e21665.css?body=1" for ::1 at 2016-03-03 01:29:01 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-03 01:29:01 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-03 01:29:01 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:29:01 -0500
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:29:01 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-03 01:29:01 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:29:01 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:29:01 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-03 01:29:01 -0500
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-03-03 01:29:01 -0500
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-03-03 01:29:01 -0500
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-03-03 01:29:01 -0500
+
+
+Started POST "/login" for ::1 at 2016-03-03 01:29:12 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZsFGzdI6lomIXI0AVf0YW5FBD3xLRS4g3JDI0nphh3e9hInP1EmVSFit3K8w1sZGR2LIX0FIVH62wCHZBnPdEw==", "ownername"=>"John L", "password"=>"[FILTERED]", "commit"=>"Sign In"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."ownername" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["ownername", "John L"]]
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 78ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/users/2" for ::1 at 2016-03-03 01:29:12 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered layouts/_usernav.html.erb (0.4ms)
+  Rendered users/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 28ms (Views: 25.7ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/logout" for ::1 at 2016-03-03 01:31:26 -0500
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"giok59FpKHFPXG1YOhteTqICm/eDK5VGgZwnI1zf2NVZb+vl1xorsJ+tPPdfMIBTdCFc1Ikm7xjrzM4oIM2CsQ=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-03 01:31:26 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-03-03 01:31:26 -0500
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-03-03 01:31:26 -0500
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-03-03 01:31:26 -0500
+
+
+Started POST "/login" for ::1 at 2016-03-03 01:31:45 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/y6gXoIgiu6ROStS0RokCd0sZzPc3Qf6h50+IVMXjAEQ6IBo6bEx69hNsTYlBvBi5+QMhGezr1kwuZDp5K9e7Q==", "ownername"=>"John L", "password"=>"[FILTERED]", "commit"=>"Sign In"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."ownername" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["ownername", "John L"]]
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 79ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/users/2" for ::1 at 2016-03-03 01:31:45 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered layouts/_usernav.html.erb (0.4ms)
+  Rendered users/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/2" for ::1 at 2016-03-03 01:33:09 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_usernav.html.erb (0.4ms)
+  Rendered users/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-03 01:33:09 -0500
+
+
+Started GET "/assets/application.self-24fe4f8ec18a687133cdbe5ec9dd828679f1f101c9c9d5c74e5a3897c6e21665.css?body=1" for ::1 at 2016-03-03 01:33:09 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-03 01:33:09 -0500
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:33:09 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-03 01:33:09 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:33:09 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:33:09 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:33:09 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-03 01:33:09 -0500
+
+
+Started DELETE "/logout" for ::1 at 2016-03-03 01:33:19 -0500
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"VsvcWVcHCiagPAHAtzrG9JDAmwTMApUE3PdREcZw2U+5DfxvPJaxI+lIm6RDJhKfqgjws3dsPadr0//ZccgLow=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-03 01:33:19 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-03-03 01:33:19 -0500
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-03-03 01:33:19 -0500
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-03-03 01:33:19 -0500
+
+
+Started POST "/login" for ::1 at 2016-03-03 01:36:03 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oQcLwMgK+qgLif4BK4d4IkBIq/q45J4YpfTRu1MFPtQQV4/lf/aJRuNUQIW0ZQZg/c2hlfRD3LNb+DA+WtOQDw==", "ownername"=>"John L", "password"=>"[FILTERED]", "commit"=>"Sign In"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."ownername" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["ownername", "John L"]]
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 72ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/users/2" for ::1 at 2016-03-03 01:36:03 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_usernav.html.erb (0.4ms)
+  Rendered users/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/logout" for ::1 at 2016-03-03 01:36:08 -0500
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"reJ/WkF3A1tkSFu2Gcq9yoI7e9ExA93xc9sw8YC8qkMcsvt/9otwtYyV5TKGKMOIP75xvn2kn1qN19F0iWoEmA=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-03 01:36:08 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/JPL/FinalProject/aframe1/app/views/static_pages/home.html.erb:13: syntax error, unexpected ',', expecting ')'
+...ash[:notice] if flash[:notice], style: 'color:#ffffff'  );@o...
+...                               ^):
+  app/views/static_pages/home.html.erb:13: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /Users/JPL/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.0ms)
+  Rendered /Users/JPL/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/JPL/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/JPL/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.0ms)
+  Rendered /Users/JPL/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/JPL/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JPL/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/JPL/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JPL/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (59.4ms)
+  Rendered /Users/JPL/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/JPL/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/JPL/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (125.6ms)
+
+
+Started GET "/" for ::1 at 2016-03-03 01:36:19 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-24fe4f8ec18a687133cdbe5ec9dd828679f1f101c9c9d5c74e5a3897c6e21665.css?body=1" for ::1 at 2016-03-03 01:36:19 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:36:19 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-03 01:36:19 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-03 01:36:19 -0500
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:36:19 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-03 01:36:19 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:36:19 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:36:19 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-03 01:36:19 -0500
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-03-03 01:36:19 -0500
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-03-03 01:36:19 -0500
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-03-03 01:36:20 -0500
+
+
+Started GET "/" for ::1 at 2016-03-03 01:38:39 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3fc45891650cba3663e0f04b44c8b16fc712788374502405be4750585c566940.css?body=1" for ::1 at 2016-03-03 01:38:39 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-03 01:38:39 -0500
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:38:39 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-03 01:38:39 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-03 01:38:39 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:38:39 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:38:39 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:38:39 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-03 01:38:39 -0500
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-03-03 01:38:39 -0500
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-03-03 01:38:39 -0500
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-03-03 01:38:39 -0500
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-03-03 01:38:39 -0500
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-03-03 01:38:39 -0500
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-03-03 01:38:39 -0500
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-03-03 01:38:39 -0500
+
+
+Started POST "/login" for ::1 at 2016-03-03 01:38:57 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zs8cEuw8HkGi1GG0wN+DUGP+exnXOV0qf6veeNLZA3JXVboyyjphNlyJLjiNBttIjO9Gm2IthU+t2fB2IVOV6Q==", "ownername"=>"John L", "password"=>"[FILTERED]", "commit"=>"Sign In"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."ownername" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["ownername", "John L"]]
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 71ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/users/2" for ::1 at 2016-03-03 01:38:57 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_usernav.html.erb (0.4ms)
+  Rendered users/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/wineglassart.png" for ::1 at 2016-03-03 01:38:57 -0500
+
+
+Started DELETE "/logout" for ::1 at 2016-03-03 01:39:01 -0500
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"WNbHgwT6VbhF+6o2eoybdn7+X+Fz77DLbKp0I/VegKLBTGGjIvwqz7um5bo3VcNuke9iY8b7aK6+2FotBtQWOQ=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-03 01:39:01 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-03-03 01:39:01 -0500
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-03-03 01:39:01 -0500
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-03-03 01:39:01 -0500
+
+
+Started GET "/" for ::1 at 2016-03-03 01:40:11 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-03 01:40:11 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-03 01:40:11 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-03 01:40:11 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:40:11 -0500
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:40:11 -0500
+
+
+Started GET "/assets/application.self-4010fc80e0b41a66502863e01eea4855c62bb8e41ca98e6f7ab3105bf5403b50.css?body=1" for ::1 at 2016-03-03 01:40:11 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:40:11 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:40:11 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-03 01:40:11 -0500
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-03-03 01:40:11 -0500
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-03-03 01:40:11 -0500
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-03-03 01:40:11 -0500
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-03-03 01:40:11 -0500
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-03-03 01:40:11 -0500
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-03-03 01:40:11 -0500
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-03-03 01:40:11 -0500
+
+
+Started POST "/login" for ::1 at 2016-03-03 01:40:19 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6Ul6GLqogeUh/C7sdbZ89FD4YgXclMHLuThaK2Ju9zgQZP2NvInMpR4gtLGtRDO9kZtDeFNa1rbK87vep9wIfA==", "ownername"=>"John L", "password"=>"[FILTERED]", "commit"=>"Sign In"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."ownername" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["ownername", "John L"]]
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 78ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/users/2" for ::1 at 2016-03-03 01:40:19 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_usernav.html.erb (0.4ms)
+  Rendered users/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/wineglassart.png" for ::1 at 2016-03-03 01:40:19 -0500
+
+
+Started DELETE "/logout" for ::1 at 2016-03-03 01:40:23 -0500
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Cu7I9xjE16+7CuTIBXfX4F7X6bOpWjKw5buqZOMhmO7zw09iHuWa74TWfpXdhZipn7TIziaUJc2WcEuRJpNnqg=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-03 01:40:23 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-03-03 01:40:23 -0500
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-03-03 01:40:23 -0500
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-03-03 01:40:23 -0500
+
+
+Started GET "/" for ::1 at 2016-03-03 01:40:28 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4010fc80e0b41a66502863e01eea4855c62bb8e41ca98e6f7ab3105bf5403b50.css?body=1" for ::1 at 2016-03-03 01:40:28 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-03 01:40:28 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-03 01:40:28 -0500
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:40:28 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:40:28 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-03 01:40:28 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:40:28 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-03 01:40:28 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-03 01:40:28 -0500
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-03-03 01:40:28 -0500
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-03-03 01:40:28 -0500
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-03-03 01:40:28 -0500

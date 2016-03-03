@@ -1,15 +1,16 @@
 <body id="homebod">
 	<div id="navbar">
 	<ul>
-		<li><a href="#sec1">HOME</a></li>&nbsp; &nbsp;
-		<li><a href="#sec7">ABOUT</a></li>&nbsp; &nbsp;
-		<li><a href="#sec9">CONTACT</a></li>&nbsp; &nbsp;
-		<li><a href="#sec3">SIGN UP</a></li>&nbsp; &nbsp;
-		<li><a href="#sec5">SIGN IN</a></li>
+		<li><a href="#sec1" class="nbfixed">HOME</a></li>&nbsp; &nbsp;
+		<li><a href="#sec7" class="nbfixed">ABOUT</a></li>&nbsp; &nbsp;
+		<li><a href="#sec9" class="nbfixed">CONTACT</a></li>&nbsp; &nbsp;
+		<li><a href="#sec3" class="nbfixed">SIGN UP</a></li>&nbsp; &nbsp;
+		<li><a href="#sec5" class="nbfixed">SIGN IN</a></li>
 	</ul>	
 	</div>
 
 	<section id="sec0">
+		<h2 class="fnhome"><%= flash[:notice] if flash[:notice] %></h2>
 	</section>
 
 	<section id="sec1">

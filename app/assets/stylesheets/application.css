@@ -11,7 +11,7 @@ a:hover{
 	text-decoration: underline;
 }
 
-a{
+.nbfixed{
 	color: white;
 	font-size: x-large;
 	text-align: center;
@@ -63,6 +63,11 @@ ul{
 	border: solid red 2px;
 	height: 700px;
 	width: 100%;
+}
+
+.fnhome{
+	color: white;
+	margin-top: 60px;
 }
 
 #sec1{
@@ -195,7 +200,11 @@ ul{
 #uppernav{
 	display: block;
 	margin: 0 auto;
-	margin-left: 100px;
+	margin-left: 166px;
+}
+
+#textform{
+	margin-left: 236px;
 }
 
 #lowernav{
