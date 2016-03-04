@@ -46,21 +46,23 @@ ul{
 #navbar{
 	margin: 0 auto;
 	margin-left: 0px;
-	height: 40px;
+	height: 30px;
 	width: 100%;
+	padding: 10px;
 	background-color: black;
 	text-align: center;
 	position: fixed;
+	z-index: 1000;
 }
 
 #sec1, #sec2, #sec4, #sec5, #sec6, #sec7, #sec8, #sec9, #sec10{
-	border: solid red 2px;
+	/*border: solid red 2px;*/
 	height: 500px;
 	width: 100%;
 }
 
 #sec0{
-	border: solid red 2px;
+	/*border: solid red 2px;*/
 	height: 700px;
 	width: 100%;
 }
@@ -94,7 +96,7 @@ ul{
 	background-image: url('/assets/tableandtent.png');
 	background-position: center;
 	background-repeat: no-repeat;
-	border: solid red 2px;
+	/*border: solid red 2px;*/
 	background-color: white;
 	text-align: center;
 	height: 700px;
@@ -104,6 +106,11 @@ ul{
 #sec5{
 	background-color: white;
 	height: 350px;
+	padding-top: 2px;
+}
+
+.sibutton{
+	font-size: large;
 }
 /*About*/
 #sec7{

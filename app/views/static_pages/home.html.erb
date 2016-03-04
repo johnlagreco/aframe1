@@ -4,15 +4,14 @@
 		<li><a href="#sec1" class="nbfixed">HOME</a></li>&nbsp; &nbsp;
 		<li><a href="#sec7" class="nbfixed">ABOUT</a></li>&nbsp; &nbsp;
 		<li><a href="#sec9" class="nbfixed">CONTACT</a></li>&nbsp; &nbsp;
-		<li><a href="#sec3" class="nbfixed">SIGN UP</a></li>&nbsp; &nbsp;
-		<li><a href="#sec5" class="nbfixed">SIGN IN</a></li>
+		<li><a href="#sec3" class="nbfixed">SIGN UP</a></li>&nbsp; &nbsp;		<li><a href="#sec5" class="nbfixed">SIGN IN</a></li>
 	</ul>	
+	<h1 class="fnhome"><%= flash[:notice] if flash[:notice] %></h1>
 	</div>
 
-	<section id="sec0">
-		<h2 class="fnhome"><%= flash[:notice] if flash[:notice] %></h2>
+	<section id="sec0">	
 	</section>
-
+	
 	<section id="sec1">
 		<img src="/assets/a-frame.png" class="a-frame" height="400">
 		<h1><p class="para1">KEEPS THE PEOPLE IN THE LOOP!</p></h1>
@@ -53,7 +52,7 @@
 				<%= label_tag :password %>
 				<%= password_field_tag :password %><br>
 			<img src="/assets/chopstick.png" width="600" class="chop1"><br>
-				<%= submit_tag "Sign In" %>
+				<%= submit_tag "Sign In", class: 'sibutton' %>
 			<% end %>
 		</div>
 	</section>
@@ -63,7 +62,7 @@
 
 	<section id="sec7">	
 		<h2 class="abouthead"><u>AFrame</u></h2>
-		<p class="para2">This application is a way for a bar/restaurant to send the daily specials to regular customers. Almost every menu online only displays the items that are always on the menu. It's even rare that a bar/restaurant would update that static menu as well. So, how does a place inform the daily specials to it's customers? Well, they use AFrame!<br><br>When a chef or bartender creates their daily specials, they can use this app to send a mms text message out to thier regular customer base. I feel that "regulars" would love to be a part of thier favorite place's database.<br></p>
+		<p class="para2">This application is a way for a bar/restaurant to send the daily specials to regular customers. Almost every menu online only displays the items that are always on the menu. It's even rare that a bar/restaurant would update that static menu as well. So, how does a place inform the daily specials to it's customers? Well, they use AFrame!<br><br>When a chef or bartender creates their daily specials, they can use this app to send a mms text message out to thier regular customer base. I feel that "regulars" would love to be a part of thier favorite place's database. Being in the database would be like a badge of honor and would most likely catch on quickly.<br></p>
 	</section>
 	
 	<section id="sec8">
