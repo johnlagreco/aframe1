@@ -55,7 +55,7 @@ ul{
 	z-index: 1000;
 }
 
-#sec1, #sec2, #sec4, #sec5, #sec6, #sec7, #sec8, #sec9, #sec10{
+#sec1, #sec2, #sec4, #sec5, #sec6, #sec8, #sec9, #sec10{
 	/*border: solid red 2px;*/
 	height: 500px;
 	width: 100%;
@@ -74,11 +74,14 @@ ul{
 
 #sec1{
 	background-color: white;
-	height: 400px;
+	height: 500px;
 }
 
 .a-frame{
+	margin: 0 auto;
 	float: left;
+	margin-left: 60px;
+	margin-top: 70px;
 }
 
 .para1{
@@ -87,7 +90,7 @@ ul{
 	display: inline;
 	position: relative;
 	text-align: center;
-	margin-top: 134px;
+	margin-top: 220px;
 	font-size: 150%;
 	font-family: lucida grande, sans-serif;
 }
@@ -96,7 +99,6 @@ ul{
 	background-image: url('/assets/tableandtent.png');
 	background-position: center;
 	background-repeat: no-repeat;
-	/*border: solid red 2px;*/
 	background-color: white;
 	text-align: center;
 	height: 700px;
@@ -105,30 +107,37 @@ ul{
 /*Signin*/
 #sec5{
 	background-color: white;
-	height: 350px;
+	height: 400px;
 	padding-top: 2px;
 }
 
 .sibutton{
 	font-size: large;
+	background-color: #d3d3d3;
 }
 /*About*/
 #sec7{
 	background-image: url('/assets/chalkboard1.jpg');
+	background-size: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
+	height: 600px;
+	width: 100%;
 	font-family: 'chalkduster';
-	font-size: large;
+	font-size: x-large;
 	color: white;
 }
 
-.abouthead{
+h1.abouthead{
 	text-align: center;
+	padding-top: 50px;
+	font-size: xx-large;
 }
 
 .para2{
 	margin: 0 auto;
-	width: 600px;
+	width: 1000px;
+	line-height: 160%;
 }
 
 #sec9{
@@ -192,7 +201,7 @@ ul{
 	display: block;
 	margin: 0 auto;
 	text-align: center;
-	/*margin-top: 150px;*/
+	margin-top: 50px;
 	font-size: x-large;
 }
 
@@ -211,23 +220,39 @@ ul{
 }
 
 #textform{
-	margin-left: 236px;
+	margin-left: 190px;
+	font-size: x-large;
+}
+
+.form-control{
+	font-size: large;
+	height: 100px;
+}
+
+.btn-text{
+	background-color: #d3d3d3;
+	font-size: large;
 }
 
 #lowernav{
 	display: block;
 	margin: 0 auto;
 	margin-left: 680px;
-    margin-top: 500px;
+    margin-top: 400px;
 }
 
 /*This is where the edit account page is styled*/
 #editactbod{
 	height: 690px;
 	background-image: url('/assets/tablecircle.jpg');
-	background-size: 55%;
+	background-size: 54%;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.back-btn{
+	float: right;
+	font-size: x-large;
 }
 
 

@@ -6,8 +6,8 @@
 <h2><%= flash[:notice] if flash[:notice] %></h2>
 <div id="textform">
 	<%= form_tag '/new', method: "post" do %>
-	  <%= text_field_tag :message, '', class: "form-control", placeholder: "Enter Daily Special" %><br>
-	  <button type="submit" class="btn btn-primary">SEND THE WORD!</button>
+	  <%= text_area_tag :message, '', class: "form-control", placeholder: "Enter Your Daily Specials" %><br>
+	  <button type="submit" class="btn-text">SEND THE WORD!</button>
 	<% end %>
 </div>
 <div id="lowernav">
