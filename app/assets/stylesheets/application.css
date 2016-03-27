@@ -17,6 +17,10 @@ a:hover{
 	text-align: center;
 }
 
+.usernav{
+	font-size: small;
+}
+
 li{
 	display: inline;
 }
@@ -216,7 +220,7 @@ h1.abouthead{
 #uppernav{
 	display: block;
 	margin: 0 auto;
-	margin-left: 166px;
+	margin-left: 192px;
 }
 
 #textform{
@@ -227,11 +231,13 @@ h1.abouthead{
 .form-control{
 	font-size: large;
 	height: 100px;
+	width: 250px;
 }
 
 .btn-text{
 	background-color: #d3d3d3;
 	font-size: large;
+	margin-left: 42px;
 }
 
 #lowernav{
@@ -239,6 +245,43 @@ h1.abouthead{
 	margin: 0 auto;
 	margin-left: 680px;
     margin-top: 400px;
+}
+
+@media (max-width: 400px){
+	#profilebod{
+		background-image: url('/assets/wineglassartup.png');
+	}
+
+	#uppernav{
+		display: block;
+		margin: 0 auto;
+		margin-top: 80px;
+		margin-left: 76px;
+	}
+
+	#textform{
+		margin: 0 auto;
+		margin-left: 72px;
+		margin-top: 30px;
+		font-size: large;
+	}
+
+	.form-control{
+		height: 150px;
+	}
+
+	#btn-text{
+		margin-top: 16px;
+	}
+
+	#lowernav{
+		display: block;
+		margin: 0 auto;
+		width: 180px;
+		margin-left: 220px;
+		margin-top: 250px;
+	}
+
 }
 
 /*This is where the edit account page is styled*/
@@ -254,6 +297,4 @@ h1.abouthead{
 	float: right;
 	font-size: x-large;
 }
-
-
 
