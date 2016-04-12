@@ -32481,3 +32481,34 @@ Started GET "/assets/wineglassart.png" for ::1 at 2016-03-24 18:36:40 -0400
 
 
 Started GET "/assets/wineglassartup.png" for ::1 at 2016-03-24 18:36:51 -0400
+
+
+Started GET "/" for ::1 at 2016-04-12 16:58:09 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (68.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (198.1ms)
+Completed 200 OK in 3188ms (Views: 2911.5ms | ActiveRecord: 215.6ms)
+
+
+Started GET "/assets/application.self-550e70b0d6155ee35387499393a821a561994cfc3e8b99de6f3f46cf46d12f41.css?body=1" for ::1 at 2016-04-12 16:58:13 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-12 16:58:13 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-12 16:58:13 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-12 16:58:13 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-12 16:58:13 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-12 16:58:13 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-12 16:58:13 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-12 16:58:13 -0400
