@@ -108,6 +108,26 @@ ul{
 	height: 700px;
 	width: 100%;
 }
+
+#signupbod{
+	height: 690px;
+	background-image: url('/assets/tableandtent.png');
+	background-size: 55%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#signupform{
+	margin: 0 auto;
+	display: block;
+	float: left;
+	position: absolute;
+	margin-top: 182px;
+    margin-left: 524px;
+    -webkit-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+}
+
 /*Signin*/
 #sec5{
 	background-color: white;
@@ -119,6 +139,15 @@ ul{
 	font-size: large;
 	background-color: #d3d3d3;
 }
+
+#signinform{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+	font-size: x-large;
+}
+
 /*About*/
 #sec7{
 	background-image: url('/assets/chalkboard1.jpg');
@@ -144,6 +173,7 @@ h1.abouthead{
 	line-height: 160%;
 }
 
+/*This is where the contact page is styled*/
 #sec9{
 	background-image: url('/assets/settable.jpg');
 	background-attachment: fixed;
@@ -152,61 +182,10 @@ h1.abouthead{
 	height: 700px;
 }
 
-/*This is where all the old layout stylings are located*/
-/*This is where the about page is styled*/
-#aboutbod{
-	background-image: url('/assets/chalkboard1.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-/*This is where the search page is styled*/
-#searchbod{
-	background-image: url('/assets/settable.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-#searchnav{
-   margin-left: 400px;
-}
-
-/*This is where the contact page is styled*/
-#contactbod{
-	background-image: url('/assets/restaurant-bar.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-
-
-/*This is where the signup page is styled*/
-#signupbod{
-	height: 690px;
-	background-image: url('/assets/tableandtent.png');
-	background-size: 55%;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-#signupform{
-	margin: 0 auto;
-	display: block;
-	float: left;
-	position: absolute;
-	margin-top: 182px;
-    margin-left: 524px;
-    -webkit-transform: rotate(-6deg);
-    transform: rotate(-6deg);
-}
-
-/*This is where the signin page is styled*/
-#signinform{
-	display: block;
+h1.contacthead{
 	margin: 0 auto;
 	text-align: center;
-	margin-top: 50px;
-	font-size: x-large;
+	padding-top: 18%;
 }
 
 /*This is where the user/business show/profile page is styled*/
@@ -247,6 +226,7 @@ h1.abouthead{
     margin-top: 400px;
 }
 
+/*This is where the User/business profile is styled for a mobile phone*/
 @media (max-width: 400px){
 	#profilebod{
 		background-image: url('/assets/wineglassartup.png');
@@ -281,7 +261,6 @@ h1.abouthead{
 		margin-left: 220px;
 		margin-top: 250px;
 	}
-
 }
 
 /*This is where the edit account page is styled*/
