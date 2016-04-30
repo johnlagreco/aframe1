@@ -33190,3 +33190,1574 @@ Started GET "/assets/settable.jpg" for ::1 at 2016-04-27 22:26:56 -0400
 
 
 Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-27 22:26:56 -0400
+
+
+Started GET "/" for ::1 at 2016-04-28 22:16:56 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (87.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (64.2ms)
+Completed 200 OK in 805ms (Views: 664.3ms | ActiveRecord: 104.5ms)
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-28 22:16:58 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-28 22:16:58 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-28 22:16:58 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-28 22:16:59 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-28 22:16:59 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-28 22:16:59 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-28 22:16:59 -0400
+
+
+Started GET "/" for ::1 at 2016-04-28 22:30:47 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9c5f88bc97005e01485b774c9c7ca4634e296f163f10e2d399732ab7f22c63b1.css?body=1" for ::1 at 2016-04-28 22:30:47 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-28 22:30:47 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-28 22:30:47 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-28 22:30:47 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-28 22:30:47 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-28 22:30:47 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-28 22:30:47 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-28 22:30:47 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-28 22:30:47 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-28 22:30:47 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-28 22:30:47 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-28 22:30:47 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-28 22:30:47 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-28 22:30:47 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-28 22:30:47 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-28 22:30:47 -0400
+
+
+Started GET "/" for ::1 at 2016-04-28 22:31:06 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 27ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0ed0eda5f682256422fe1958086f14c674d84fbc863ae6bbbc99365fa30627f0.css?body=1" for ::1 at 2016-04-28 22:31:06 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-28 22:31:06 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-28 22:31:06 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-28 22:31:06 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-28 22:31:06 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-28 22:31:06 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-28 22:31:06 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-28 22:31:06 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-28 22:31:06 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-28 22:31:06 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-28 22:31:06 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-28 22:31:06 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-28 22:31:06 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-28 22:31:06 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-28 22:31:06 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-28 22:31:06 -0400
+
+
+Started GET "/" for ::1 at 2016-04-28 22:31:20 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fe183d20ccf40ee296eb53f11f10a303e33da47da916a720abe8ca9e5d26a086.css?body=1" for ::1 at 2016-04-28 22:31:21 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-28 22:31:21 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-28 22:31:21 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-28 22:31:21 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-28 22:31:21 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-28 22:31:21 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-28 22:31:21 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-28 22:31:21 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-28 22:31:21 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-28 22:31:21 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-28 22:31:21 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-28 22:31:21 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-28 22:31:21 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-28 22:31:21 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-28 22:31:21 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-28 22:31:21 -0400
+
+
+Started POST "/login" for ::1 at 2016-04-28 22:32:32 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vfT+ep9NAvcefcr1W54qXBgWKNqIechqCWgvDYu7FYfq4AMRBN0lQVYquUbI+Fvk0X6i/jLB+NM3cwtDXzXecg==", "ownername"=>"Frank", "password"=>"[FILTERED]", "commit"=>"Sign In"}
+  [1m[35mUser Load (41.9ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."ownername" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["ownername", "Frank"]]
+Redirected to http://localhost:3000/users/5
+Completed 302 Found in 188ms (ActiveRecord: 42.1ms)
+
+
+Started GET "/users/5" for ::1 at 2016-04-28 22:32:32 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered layouts/_usernav.html.erb (1.3ms)
+  Rendered users/show.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 69ms (Views: 63.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/wineglassart.png" for ::1 at 2016-04-28 22:32:32 -0400
+
+
+Started GET "/assets/wineglassartup.png" for ::1 at 2016-04-28 22:32:43 -0400
+
+
+Started DELETE "/logout" for ::1 at 2016-04-28 22:33:02 -0400
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"zr/eagh9e0KJ722jqdicYzZo90CQy/aQv6NWP+1nY/WZqyMBk+1c9MG4HhA6vu3b/wB9ZCpzximBuHJxOemoAA=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 22:33:02 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-28 22:33:02 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-28 22:33:02 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-28 22:33:02 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-28 22:33:02 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-28 22:33:02 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-28 22:33:02 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-28 22:33:02 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 22:36:59 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (75.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 826ms (Views: 674.5ms | ActiveRecord: 114.8ms)
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 22:37:01 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 22:37:02 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 22:37:02 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 22:37:02 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 22:37:02 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 22:37:02 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 22:37:02 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 22:41:51 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 26ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-81fd75aaed2947725d5e84afddcdf123b5a3b6d9dd0f746d744f297e7c754389.css?body=1" for ::1 at 2016-04-29 22:41:51 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 22:41:51 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 22:41:51 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:41:51 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:41:51 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 22:41:51 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:41:51 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:41:51 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 22:41:51 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 22:41:51 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 22:41:51 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 22:41:51 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 22:41:51 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 22:41:51 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 22:41:51 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 22:41:51 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 22:44:35 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 25ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a3e76860d5fe8fb3abf03ca74d6a6f1966604c1b6eb63fda5d7b9b5682c46497.css?body=1" for ::1 at 2016-04-29 22:44:35 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 22:44:35 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 22:44:35 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 22:44:35 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:44:35 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:44:35 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:44:35 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 22:44:35 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 22:44:35 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:44:35 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 22:44:35 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 22:44:35 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 22:44:35 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 22:44:35 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 22:44:35 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 22:44:35 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 22:50:10 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1ff162d5ad15a71a9fede27ab84a9c305489f5a4dbf15e0de6e02bb9aebf1c37.css?body=1" for ::1 at 2016-04-29 22:50:10 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 22:50:10 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:50:10 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:50:10 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 22:50:10 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 22:50:10 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:50:10 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:50:10 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 22:50:10 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 22:50:10 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 22:50:10 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 22:50:10 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 22:50:10 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 22:50:10 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 22:50:10 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 22:50:10 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 22:54:06 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 26ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 22:54:06 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 22:54:06 -0400
+
+
+Started GET "/assets/application.self-e0a929d318879a65a1b65b91d243c8a2ffee984be385d2234e5498d1c2bfc119.css?body=1" for ::1 at 2016-04-29 22:54:06 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 22:54:06 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:54:06 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:54:06 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:54:06 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:54:06 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 22:54:06 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 22:54:06 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 22:54:06 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 22:54:06 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 22:54:06 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 22:54:06 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 22:54:06 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 22:54:06 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 22:57:10 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:57:10 -0400
+
+
+Started GET "/assets/application.self-c637416e710d8cc378c53949e2938622bf898d31edd55dfb06137a156dbcf931.css?body=1" for ::1 at 2016-04-29 22:57:10 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 22:57:10 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 22:57:10 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 22:57:10 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:57:10 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:57:10 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:57:10 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 22:57:10 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 22:57:10 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 22:57:10 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 22:57:10 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 22:57:10 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 22:57:10 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 22:57:10 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 22:57:10 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 22:57:23 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c637416e710d8cc378c53949e2938622bf898d31edd55dfb06137a156dbcf931.css?body=1" for ::1 at 2016-04-29 22:57:23 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 22:57:23 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:57:23 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 22:57:23 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 22:57:23 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:57:23 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:57:23 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:57:23 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 22:57:23 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 22:57:23 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 22:57:23 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 22:57:23 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 22:57:23 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 22:57:23 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 22:57:23 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 22:57:23 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 22:58:23 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 22:58:23 -0400
+
+
+Started GET "/assets/application.self-c49c8f4b30d8d1a52230be933640a172ee5605e8b3cf7093bb195565c1b480a1.css?body=1" for ::1 at 2016-04-29 22:58:23 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:58:23 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:58:23 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 22:58:23 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 22:58:23 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:58:23 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:58:23 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 22:58:23 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 22:58:23 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 22:58:23 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 22:58:23 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 22:58:23 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 22:58:23 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 22:58:23 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 22:58:23 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 22:58:34 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-82e1fd9cfa40683e96e462f514fcef819d7b298ca77a458236b6243cced1b36c.css?body=1" for ::1 at 2016-04-29 22:58:34 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 22:58:34 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 22:58:34 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 22:58:34 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:58:34 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:58:34 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:58:34 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 22:58:34 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 22:58:34 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 22:58:34 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 22:58:34 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 22:58:34 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 22:58:34 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 22:58:34 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 22:58:34 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 22:58:34 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 23:01:11 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c637416e710d8cc378c53949e2938622bf898d31edd55dfb06137a156dbcf931.css?body=1" for ::1 at 2016-04-29 23:01:11 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:01:11 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:01:11 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:01:11 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:01:11 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:01:11 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:01:11 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:01:11 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:01:11 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 23:01:11 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 23:01:11 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 23:01:11 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 23:01:11 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 23:01:12 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 23:01:12 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 23:01:12 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 23:01:30 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-66fa66d1a5f653a81ebc0264c7ac87fa21a7e0f22bac1407f223c9d3e8d3eb8e.css?body=1" for ::1 at 2016-04-29 23:01:30 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:01:30 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:01:30 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:01:30 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:01:30 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:01:30 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:01:30 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:01:30 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:01:30 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 23:01:30 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 23:01:30 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 23:01:30 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 23:01:30 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 23:01:30 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 23:01:30 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 23:01:30 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 23:01:39 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dcc8db7d8dd7da2aa250508e7d699f2ce9890740caf524d839e870ef837380a5.css?body=1" for ::1 at 2016-04-29 23:01:39 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:01:39 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:01:39 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:01:39 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:01:39 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:01:39 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:01:39 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:01:39 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 23:01:39 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:01:39 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 23:01:39 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 23:01:39 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 23:01:39 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 23:01:39 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 23:01:39 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 23:01:39 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 23:01:50 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 26ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1774076130402acb0dc3163e6cebc3436234ee9be4e8705745c3a63c85601b31.css?body=1" for ::1 at 2016-04-29 23:01:50 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:01:50 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:01:50 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:01:50 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:01:50 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:01:50 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:01:50 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:01:50 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 23:01:50 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:01:50 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 23:01:50 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 23:01:50 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 23:01:50 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 23:01:50 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 23:01:50 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 23:01:50 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 23:02:11 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dcc8db7d8dd7da2aa250508e7d699f2ce9890740caf524d839e870ef837380a5.css?body=1" for ::1 at 2016-04-29 23:02:11 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:02:11 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:02:11 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:02:11 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:02:11 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:02:11 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:02:11 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:02:11 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:02:11 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 23:02:11 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 23:02:11 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 23:02:11 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 23:02:11 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 23:02:11 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 23:02:11 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 23:02:11 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 23:03:28 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8e6b26e54b4f1fb194a409dddf6fc5777b68b6d5425e01174c6b96eeb04e320f.css?body=1" for ::1 at 2016-04-29 23:03:28 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:03:28 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:03:28 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:03:28 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:03:28 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:03:28 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:03:28 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:03:28 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 23:03:28 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:03:28 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 23:03:28 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 23:03:28 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 23:03:28 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 23:03:28 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 23:03:28 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 23:03:28 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 23:03:43 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dcc8db7d8dd7da2aa250508e7d699f2ce9890740caf524d839e870ef837380a5.css?body=1" for ::1 at 2016-04-29 23:03:43 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:03:43 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:03:43 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:03:43 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:03:43 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:03:43 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:03:43 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:03:43 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:03:43 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 23:03:43 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 23:03:43 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 23:03:43 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 23:03:43 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 23:03:43 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 23:03:43 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 23:03:43 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 23:04:14 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8e6b26e54b4f1fb194a409dddf6fc5777b68b6d5425e01174c6b96eeb04e320f.css?body=1" for ::1 at 2016-04-29 23:04:14 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:04:14 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:04:14 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:04:14 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:04:14 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:04:14 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:04:14 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:04:14 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:04:14 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 23:04:14 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 23:04:14 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 23:04:14 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 23:04:14 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 23:04:14 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 23:04:14 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 23:04:14 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 23:04:35 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:04:35 -0400
+
+
+Started GET "/assets/application.self-6cd83464697cab9d3ff6e15d0a4b9257cce31cd45c9ad2fe65409d0b717a9d15.css?body=1" for ::1 at 2016-04-29 23:04:35 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:04:35 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:04:35 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:04:35 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:04:35 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:04:35 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:04:35 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:04:35 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 23:04:35 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 23:04:35 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 23:04:35 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 23:04:35 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 23:04:35 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 23:04:35 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 23:04:35 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 23:06:11 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:06:11 -0400
+
+
+Started GET "/assets/application.self-bb5e982d6e6c2be874ea36493a4f774903c75c1c1b382e9d3915f6bcd4915cfb.css?body=1" for ::1 at 2016-04-29 23:06:11 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:06:11 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:06:11 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:06:11 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:06:11 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:06:11 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:06:11 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:06:11 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 23:06:11 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 23:06:11 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 23:06:11 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 23:06:11 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 23:06:11 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 23:06:11 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 23:06:11 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 23:08:43 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 32ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-08237ca1b39ee71db0015e1ab8ae298a58238bb5534b3d488bd1eb1125e7cc09.css?body=1" for ::1 at 2016-04-29 23:08:43 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:08:43 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:08:43 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:08:43 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:08:43 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:08:43 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:08:43 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:08:43 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 23:08:43 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:08:43 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 23:08:43 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 23:08:43 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 23:08:43 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 23:08:43 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 23:08:43 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 23:08:43 -0400
+
+
+Started POST "/login" for ::1 at 2016-04-29 23:12:52 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MdD5aIUM/Ip39kb3zRicveP0ooWFKdEqsK1PtI+QGEd1v2VEuxR66FckNR8QF1g8EjulB0b4rx83L0UKkIEIyw==", "ownername"=>"Frank", "password"=>"[FILTERED]", "commit"=>"Sign In"}
+  [1m[35mUser Load (64.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."ownername" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["ownername", "Frank"]]
+Redirected to http://localhost:3000/users/5
+Completed 302 Found in 206ms (ActiveRecord: 64.7ms)
+
+
+Started GET "/users/5" for ::1 at 2016-04-29 23:12:52 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered layouts/_usernav.html.erb (1.4ms)
+  Rendered users/show.html.erb within layouts/application (34.4ms)
+Completed 200 OK in 78ms (Views: 73.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/wineglassart.png" for ::1 at 2016-04-29 23:12:53 -0400
+
+
+Started DELETE "/logout" for ::1 at 2016-04-29 23:13:08 -0400
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"xKHwmNfWIXVfvbIEQMv6eCWEGVm5W2PaIkwKVvGKxAiAzmy06c6nF39vweydxD751Ese23qKHe+lzgDo7pvUhA=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-29 23:13:08 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 23:13:08 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 23:13:08 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 23:13:08 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 23:13:08 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 23:13:08 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 23:13:08 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 23:13:08 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 23:14:24 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-be0b883f851edd3713f89b6f7273acc9a95e4518b80d0448a022a7f6aee48b46.css?body=1" for ::1 at 2016-04-29 23:14:24 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:14:24 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:14:24 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:14:24 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:14:24 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:14:24 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:14:24 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:14:24 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:14:24 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 23:14:24 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 23:14:25 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 23:14:25 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 23:14:25 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 23:14:25 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 23:14:25 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 23:14:25 -0400
+
+
+Started POST "/login" for ::1 at 2016-04-29 23:14:37 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1A9fKhiRC2qofhyV6uNBjQliot60xJwfHh2GSBIBnRVxxzveWlw7vg6hjN5dIoTc7MkPS+uNbuXCK8hZTE0L5g==", "ownername"=>"Frank", "password"=>"[FILTERED]", "commit"=>"Sign In"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."ownername" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["ownername", "Frank"]]
+Redirected to http://localhost:3000/users/5
+Completed 302 Found in 76ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/users/5" for ::1 at 2016-04-29 23:14:37 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered layouts/_usernav.html.erb (0.4ms)
+  Rendered users/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/wineglassart.png" for ::1 at 2016-04-29 23:14:37 -0400
+
+
+Started DELETE "/logout" for ::1 at 2016-04-29 23:14:42 -0400
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"gn8Skoi4Q3kUN3QfKygy735VyDRx+s56hCf9QFUp7nInt3ZmynVzrbLo5FSc6fe+m/5loS6zPIBYEbNRC2V4gQ=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-29 23:14:42 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 23:14:42 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 23:14:42 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 23:14:42 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 23:14:42 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 23:14:42 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 23:14:42 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 23:14:42 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 23:16:25 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-be0b883f851edd3713f89b6f7273acc9a95e4518b80d0448a022a7f6aee48b46.css?body=1" for ::1 at 2016-04-29 23:16:25 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:16:25 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:16:25 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:16:25 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:16:25 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:16:25 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:16:25 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:16:25 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:16:25 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 23:16:25 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 23:16:25 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 23:16:25 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 23:16:25 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 23:16:25 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 23:16:25 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 23:16:25 -0400
+
+
+Started GET "/" for ::1 at 2016-04-29 23:17:41 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c4816cdcd53a5d526f4ff98cafb0018d2126061a270952a51c939617025c75f4.css?body=1" for ::1 at 2016-04-29 23:17:41 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:17:41 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:17:41 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:17:41 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:17:41 -0400
+
+
+Started GET "/assets/regulars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:17:41 -0400
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:17:41 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:17:41 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:17:41 -0400
+
+
+Started GET "/assets/a-frame.png" for ::1 at 2016-04-29 23:17:41 -0400
+
+
+Started GET "/assets/chopstick.png" for ::1 at 2016-04-29 23:17:41 -0400
+
+
+Started GET "/assets/chopstick2.png" for ::1 at 2016-04-29 23:17:41 -0400
+
+
+Started GET "/assets/restaurant-bar.jpg" for ::1 at 2016-04-29 23:17:41 -0400
+
+
+Started GET "/assets/tableandtent.png" for ::1 at 2016-04-29 23:17:41 -0400
+
+
+Started GET "/assets/chalkboard1.jpg" for ::1 at 2016-04-29 23:17:41 -0400
+
+
+Started GET "/assets/settable.jpg" for ::1 at 2016-04-29 23:17:41 -0400
