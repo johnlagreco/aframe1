@@ -59,7 +59,7 @@ ul{
 	z-index: 1000;
 }
 
-#sec1, #sec2, #sec4, #sec5, #sec6, #sec8, #sec9, #sec10{
+#sec1, #sec2, #sec4, #sec5, #sec6, #sec8, #sec9{
 	/*border: solid red 2px;*/
 	height: 500px;
 	width: 100%;
@@ -124,6 +124,7 @@ ul{
 	position: absolute;
 	margin-top: 15%;
     margin-left: 41%;
+    font-family: lucida grande, sans-serif;
     -webkit-transform: rotate(-7deg);
     transform: rotate(-7deg);
 }
@@ -146,6 +147,7 @@ ul{
 	text-align: center;
 	margin-top: 5%;
 	font-size: x-large;
+	font-family: lucida grande, sans-serif;
 }
 
 /*About*/
@@ -165,12 +167,14 @@ h1.abouthead{
 	text-align: center;
 	padding-top: 5%;
 	font-size: xx-large;
+	font-family: 'Coming Soon', cursive;
 }
 
 .para2{
 	margin: 0 auto;
 	width: 90%;
 	line-height: 160%;
+	font-family: 'Coming Soon', cursive;
 }
 
 /*This is where the contact page is styled*/
@@ -180,12 +184,14 @@ h1.abouthead{
 	background-position: center;
 	background-size: cover;
 	height: 700px;
+	position: relative;
 }
 
 h1.contacthead{
 	margin: 0 auto;
 	text-align: center;
 	padding-top: 20%;
+	font-family: Arial;
 }
 
 /*This is where the user/business show/profile page is styled*/
